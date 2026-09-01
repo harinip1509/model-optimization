@@ -1,4 +1,4 @@
-\# MNIST ANN — Optimized Deep Learning Model
+# MNIST ANN — Optimized Deep Learning Model
 
 
 
@@ -6,7 +6,7 @@ A lightweight Artificial Neural Network (ANN) for \*\*handwritten digit classifi
 
 
 
-\## Features
+## Features
 
 
 
@@ -22,7 +22,7 @@ A lightweight Artificial Neural Network (ANN) for \*\*handwritten digit classifi
 
 
 
-\## Models
+## Models
 
 
 
@@ -38,11 +38,11 @@ A lightweight Artificial Neural Network (ANN) for \*\*handwritten digit classifi
 
 
 
-\## Usage
+## Usage
 
 
 
-\### 1. Install dependencies
+### 1. Install dependencies
 
 
 
@@ -54,7 +54,7 @@ pip install tensorflow numpy pillow
 
 
 
-\### 2. Load the model
+### 2. Load the model
 
 
 
@@ -70,7 +70,7 @@ model = load\_model("baseline\_ann.h5")
 
 
 
-\### 3. Predict a digit
+### 3. Predict a digit
 
 
 
@@ -94,7 +94,7 @@ For deployment on resource-constrained devices, use `quantized\_model.tflite` wi
 
 
 
-\## Performance
+## Performance
 
 
 
@@ -110,7 +110,7 @@ For deployment on resource-constrained devices, use `quantized\_model.tflite` wi
 
 
 
-\## Tech Stack
+## Tech Stack
 
 
 
@@ -118,7 +118,7 @@ For deployment on resource-constrained devices, use `quantized\_model.tflite` wi
 
 
 
-\## Use Cases
+## Use Cases
 
 
 
