@@ -2,7 +2,7 @@
 
 
 
-A lightweight Artificial Neural Network (ANN) for \*\*handwritten digit classification\*\*, optimized using \*\*quantization and pruning\*\* for efficient deployment.
+A lightweight Artificial Neural Network (ANN) for **handwritten digit classification**, optimized using **quantization and pruning** for efficient deployment.
 
 
 
@@ -12,7 +12,7 @@ A lightweight Artificial Neural Network (ANN) for \*\*handwritten digit classifi
 
 \* Classifies handwritten digits (`0–9`)
 
-\* Trained on the \*\*MNIST dataset\*\*
+\* Trained on the **MNIST dataset**
 
 \* Post-training quantization for reduced model size
 
@@ -74,7 +74,7 @@ model = load\_model("baseline\_ann.h5")
 
 
 
-Provide a \*\*28×28 grayscale image\*\*, normalize pixel values to `\[0,1]`, and run:
+Provide a **28×28 grayscale image**, normalize pixel values to `\[0,1]`, and run:
 
 
 
@@ -102,11 +102,11 @@ For deployment on resource-constrained devices, use `quantized\_model.tflite` wi
 
 | --------- | ----------: | -------: |
 
-| Baseline  |     \~400 KB |  \~97–98% |
+| Baseline  |     ~400 KB |  ~97–98% |
 
-| Quantized | \~100–110 KB |     \~97% |
+| Quantized | ~100–110 KB |     ~97% |
 
-| Pruned    | \~390–400 KB |     \~97% |
+| Pruned    | ~390–400 KB |     ~97% |
 
 
 
@@ -126,15 +126,15 @@ This model can be used as a lightweight digit-recognition component in:
 
 
 
-\* OCR applications
+* OCR applications
 
-\* Handwritten form processing
+* Handwritten form processing
 
-\* Educational applications
+* Educational applications
 
-\* Edge/mobile ML prototypes
+* Edge/mobile ML prototypes
 
-\* Digit recognition systems
+* Digit recognition systems
 
 
 
