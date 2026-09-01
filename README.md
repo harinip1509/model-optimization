@@ -10,15 +10,15 @@ A lightweight Artificial Neural Network (ANN) for **handwritten digit classifica
 
 
 
-\* Classifies handwritten digits (`0–9`)
+* Classifies handwritten digits (`0–9`)
 
-\* Trained on the **MNIST dataset**
+* Trained on the **MNIST dataset**
 
-\* Post-training quantization for reduced model size
+* Post-training quantization for reduced model size
 
-\* Magnitude-based pruning for weight sparsity
+* Magnitude-based pruning for weight sparsity
 
-\* TensorFlow Lite model for lightweight inference
+* TensorFlow Lite model for lightweight inference
 
 
 
